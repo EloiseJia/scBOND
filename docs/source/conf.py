@@ -33,7 +33,7 @@ napoleon_custom_sections = [('Params', 'Parameters')]
 todo_include_todos = False
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', '**.ipynb_checkpoints']
+exclude_patterns = ['_build', '**.ipynb']
 
 
 html_theme = "sphinx_rtd_theme"
