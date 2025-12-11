@@ -24,6 +24,8 @@ and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.
 
 * `Unpaired data translation using <https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_for_single_modal.ipynb>`_
 
+Examples
+--------
 
 .. toctree::
     :maxdepth: 2
