@@ -28,7 +28,10 @@ and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.
 .. toctree::
     :maxdepth: 2
     :hidden:
-    :caption:
+    RNA_DNAm_paired_prediction/scBOND
+    RNA_DNAm_paired_prediction/scBOND_Aug
+
+    RNA_DNAm_unpaired_prediction/scBOND_for_single_modal
 
     scBOND_usage
     scBOND_aug_usage
