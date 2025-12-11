@@ -30,14 +30,4 @@ and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.
 
 * `scBOND for single modality prediction <RNA_DNAm_variants/scBOND_for_single_model.ipynb>`_
 
-Examples
---------
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    RNA_DNAm_paired_basic/scBOND_usage
-
-    RNA_DNAm_variants/scBOND_aug_usage
-    RNA_DNAm_variants/scBOND_for_single_model
 
