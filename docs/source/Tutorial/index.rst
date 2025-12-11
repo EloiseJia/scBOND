@@ -7,8 +7,8 @@ Translation between single-cell transcriptomes and DNA methylomes
 
 scBOND could make translation between single-cell transcriptomes and DNA methylomes paired data using scBOND model in ``scBond.bond``.
 
-* [scBOND usage](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_usage.ipynb)
-* [scBOND_Aug using augmentation with cell-type labels](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_aug_usage.ipynb)
+* [scBOND usage](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_usage.ipynb)
+* [scBOND_Aug using augmentation with cell-type labels](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_aug_usage.ipynb)
 
 Extension usages of scBOND framework
 -----------------------------------------
@@ -22,7 +22,7 @@ Translation between scRNA-seq and scDNAm unpaired data
 After training, scBOND could use single scRNA-seq to predict single scDNAm in ``scBond.train_model.Model.predict_single_methylation``
 and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.predict_single_rna``.
 
-* [scBOND for single modality prediction](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_for_single_modal.ipynb)
+* [scBOND for single modality prediction](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_for_single_modal.ipynb)
 
 
 Examples
