@@ -29,13 +29,24 @@ author = 'BioX-NKU'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosummary',
-    'sphinx_autodoc_typehints',
+# extensions = ['sphinx.ext.autosummary',
+#     'sphinx_autodoc_typehints',
+#     'sphinx.ext.napoleon',
+#     'nbsphinx',
+#     'sphinx_rtd_theme'
+# ]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.doctest',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
-    'nbsphinx',
-    'sphinx_rtd_theme'
+    'sphinx.ext.autosummary',
+    'sphinx_autodoc_typehints',
+    'sphinx_rtd_theme',
+    'nbsphinx'
 ]
-
 # Generate the API documentation when building
 autosummary_generate = True
 autodoc_member_order = 'bysource'
